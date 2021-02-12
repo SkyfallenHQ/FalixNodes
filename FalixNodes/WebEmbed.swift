@@ -17,6 +17,24 @@ public struct WebEmbed {
         webView.load(url_request)
     }
     
+    public func back() {
+        
+        webView.goBack()
+        
+    }
+    
+    public func forward() {
+        
+        webView.goForward()
+        
+    }
+    
+    public func reload(){
+        
+        webView.reload()
+        
+    }
+    
     public class Coordinator: NSObject, WKNavigationDelegate, WKUIDelegate {
 
         var parent: WebEmbed
