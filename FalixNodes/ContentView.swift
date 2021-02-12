@@ -114,13 +114,13 @@ struct ContentView: View {
             VStack{
                 Image(nsImage: NSImage(named:"AppIcon")!)
                     .resizable()
-                    .frame(width: 150, height: 150)
+                    .frame(width: 100, height: 100)
                     .aspectRatio(contentMode: .fit)
-                Text("FalixNodes App")
+                Text("FalixNodes.net")
                     .font(.title)
-                Text("SKYFALLEN")
+                Text("APP BY SKYFALLEN")
                     .font(.subheadline)
-                    .tracking(10)
+                    .tracking(5)
                     .padding(.leading, 7)
                     .padding(.top, 10)
             }
